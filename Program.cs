@@ -9,7 +9,7 @@ namespace ConsoleApp2
         {
             int[] numbers = { 5, 6, 10, 50, 70, -1, 0 };
             // return the index of the min element/            
-            int minNumberIndex = 0; //we acceptrst number is the min with his indexNr/
+            int minNumberIndex = 0; //we accept first number is the min with his indexNr/
             int minNumb = numbers[0];
 
             for (int i = 0; i < numbers.Length; i++)
