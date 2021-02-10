@@ -22,7 +22,8 @@ namespace ConsoleApp2
                     {
                         minNumb = numbers[j];
                         minNumberIndex = j;
-                    }
+                        break; // We dont need to continue looking fro currNumber, as we got new min
+                    } // We continue to next i-iteration then
                 }
             }
 
