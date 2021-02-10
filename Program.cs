@@ -20,8 +20,8 @@ namespace ConsoleApp2
                 {
                     if (currNum > numbers[j])
                     {
-                        minNumb = numbers[i + 1];
-                        minNumberIndex = i + 1;
+                        minNumb = numbers[j];
+                        minNumberIndex = j;
                     }
                 }
             }
